@@ -1,0 +1,29 @@
+<style>
+    .display-4{
+      margin-top: 0;
+      /* padding-top: 50px; */
+      margin-bottom: 15px;
+      font-size: 50px;
+      font-weight: 400;
+      color: #fff;
+      text-shadow: 0 0 25px rgba(51,88,104,.5);
+      letter-spacing: .1em;
+    }
+</style>
+
+<div class="jumbotron jumbotron-fluid" style="background-color: #45abf3;height: 250px;">
+    <div class="container">
+        <!-- 头部 -->
+        <h1 class="display-4 text-center">Restful风格的图书系统</h1>
+        <!-- <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p> -->
+        <!-- 导航 -->
+        <br>
+        <br>
+        <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="{% url 'bookslist' %} ">首页</a></li>
+            <li class="breadcrumb-item"><a href="http://127.0.0.1:8000/api/v1/">后台</a></li>
+        </ol>
+        </nav>
+    </div>
+</div>
